@@ -19,4 +19,11 @@
         android:text="@string/array_adapter_extends_listActivity"
         android:textSize="20pt" />
 
+    <Button
+        android:id="@+id/simple_adapter_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simple_adapter_listview"
+        android:textSize="20pt" />
+
 </LinearLayout>

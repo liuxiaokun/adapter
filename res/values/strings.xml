@@ -4,6 +4,7 @@
     <string name="app_name">AdapterDemo</string>
     <string name="array_adapter_extends_listActivity">Array adapter extends ListActivity</string>
     <string name="array_adapter_listview">Array adapter ListView</string>
+    <string name="simple_adapter_listview">Simple adapter ListView</string>
     <string name="action_settings">Settings</string>
 
 </resources>

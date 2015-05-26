@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".MyArrayAdapterListActivity" />
         <activity android:name=".MyListViewActivity" />
+        <activity android:name=".SimpleAdapterTest" />
     </application>
 
 </manifest>

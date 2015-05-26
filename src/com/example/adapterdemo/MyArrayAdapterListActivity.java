@@ -25,7 +25,7 @@ public class MyArrayAdapterListActivity extends ListActivity {
         list.add("DDDDDDDD");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                R.layout.list_activity_array_adapter_item, list);
+                R.layout.list_view_item, list);
 
         setListAdapter(adapter);
     }

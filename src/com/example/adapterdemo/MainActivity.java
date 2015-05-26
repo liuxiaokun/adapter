@@ -23,8 +23,11 @@ public class MainActivity extends Activity implements OnClickListener {
         Button listActivityButton = (Button) findViewById(R.id.array_adapter_extends_listActivity);
         listActivityButton.setOnClickListener(this);
 
-        Button listViewButton = (Button) findViewById(R.id.array_adapter_listview);
-        listViewButton.setOnClickListener(this);
+        Button arrayButton = (Button) findViewById(R.id.array_adapter_listview);
+        arrayButton.setOnClickListener(this);
+        
+        Button simpleButton = (Button) findViewById(R.id.simple_adapter_listview);
+        simpleButton.setOnClickListener(this);
     }
 
     @Override
@@ -42,6 +45,11 @@ public class MainActivity extends Activity implements OnClickListener {
             Intent intent = new Intent(getApplicationContext(),
                     MyArrayAdapterListActivity.class);
             startActivity(intent);
+            break;
+        case R.id.simple_adapter_listview:
+            Log.i("click", "simple_adapter_listview");
+            startActivity(new Intent(getApplicationContext(),
+                    SimpleAdapterTest.class));
             break;
 
         default:
