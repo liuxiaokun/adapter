@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdapterDemo</string>
+    <string name="array_adapter_extends_listActivity">Array adapter extends ListActivity</string>
+    <string name="array_adapter_listview">Array adapter ListView</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
