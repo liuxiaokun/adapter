@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MyArrayAdapterListActivity" />
+        <activity android:name=".MyListViewActivity" />
     </application>
 
 </manifest>

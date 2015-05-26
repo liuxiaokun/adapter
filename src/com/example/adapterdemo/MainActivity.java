@@ -22,6 +22,9 @@ public class MainActivity extends Activity implements OnClickListener {
 
         Button listActivityButton = (Button) findViewById(R.id.array_adapter_extends_listActivity);
         listActivityButton.setOnClickListener(this);
+
+        Button listViewButton = (Button) findViewById(R.id.array_adapter_listview);
+        listViewButton.setOnClickListener(this);
     }
 
     @Override
@@ -29,7 +32,9 @@ public class MainActivity extends Activity implements OnClickListener {
 
         switch (v.getId()) {
         case R.id.array_adapter_listview:
-
+            Log.i("click", "array_adapter_listview");
+            startActivity(new Intent(getApplicationContext(),
+                    MyListViewActivity.class));
             break;
 
         case R.id.array_adapter_extends_listActivity:
